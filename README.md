@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/akshaypatel99/frontend-mentor/tree/main/base-apparel-coming-soon](https://github.com/akshaypatel99/frontend-mentor/tree/main/base-apparel-coming-soon)
+- Solution URL: [https://github.com/akshaypatel99/base-apparel-coming-soon](https://github.com/akshaypatel99/base-apparel-coming-soon)
 - Live Site URL: [https://akshaypatel99.github.io/base-apparel-coming-soon/](https://akshaypatel99.github.io/base-apparel-coming-soon/)
 
 ## My process

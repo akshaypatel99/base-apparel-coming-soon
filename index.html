@@ -33,21 +33,21 @@
 		</style>
 	</head>
 	<body>
-		<header class="header-mobile container">
+		<!-- <header class="header-mobile container">
 			<img src="./images/logo.svg" alt="Base Apparel logo" class="logo-mobile" />
-		</header>
-		<main>
+		</header> -->
+		<main class="page">
+			<header class="header">
+				<img src="./images/logo.svg" alt="Base Apparel logo" class="logo" />
+			</header>
 			<picture class="hero-image">
-				<source media="(min-width: 1440px)" srcset="./images/hero-desktop.jpg" />
+				<source media="(min-width: 1024px)" srcset="./images/hero-desktop.jpg" />
 				<img
 					src="./images/hero-mobile.jpg"
 					alt="Model wearing salmon-coloured shirt and bracelet"
 				/>
 			</picture>
-			<article class="container">
-        <header class="header-desktop">
-          <img src="./images/logo.svg" alt="Base Apparel logo" class="logo-desktop" />
-        </header>
+			<article class="landing-content">
 				<h1 class="landing-title">We're<br/><span>coming<br />soon</span></h1>
 				<p class="landing-text">
 					Hello fellow shoppers! We're currently building our new fashion store.
@@ -55,15 +55,15 @@
 					launch deals.
 				</p>
 
-				<form id="landing-form" action="#" method="post">
+				<form id="landing-form" action="#" method="post" class="landing-form">
 					<input type="email" name="email" aria-label="email" id="email" placeholder="Email Address" class="error-element">
-            <img src="./images/icon-error.svg" alt="error icon" class="error-element error-icon">
+            <img src="./images/icon-error.svg" alt="error icon" class="error-element error-icon" aria-hidden="true">
           </input>
+					<p class="error-element error-message">Please provide a valid email</p>
 					<button type="submit" id="submit">
-            <img src="./images/icon-arrow.svg" alt="submit icon" />
+            <img src="./images/icon-arrow.svg" alt="submit icon" aria-hidden="true" />
 					</button>
 				</form>
-        <p class="error-element error-message">Please provide a valid email</p>
 			</article>
 		</main>
 
@@ -72,7 +72,7 @@
 				Challenge by
 				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
 					>Frontend Mentor</a
-				>. Coded by <a href="#">Your Name Here</a>.
+				>. Coded by <a href="#">Akshay Patel</a>.
 			</p>
 		</footer>
 
